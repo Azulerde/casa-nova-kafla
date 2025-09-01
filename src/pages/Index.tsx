@@ -1,7 +1,20 @@
 import { Hero } from "@/components/Hero";
 import { ProductCard } from "@/components/ProductCard";
-import { Footer } from "@/components/Footer";
+import FooterFlmn from "@/components/FooterFlmn";
 import { products } from "@/data/products";
+
+const siteProps = {
+  nickName: "Flavio13Lins",
+  email: "flavio13lins@gmail.com",
+  discordId: "654752684884361265",
+  gitHub: "Flavio13Lins",
+  instagram: "Flavio13Lins",
+  linkedIn: "flavio13lins",
+  youTube: "",
+  devDotTo: ""
+};
+
+const primaryColor = "#2bb3a8";
 
 const Index = () => {
   return (
@@ -37,8 +50,11 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Footer */}
-      <Footer />
+      {/* FooterFlmn */}
+      <FooterFlmn
+        {...siteProps}
+        primaryColor={primaryColor}
+      />
     </div>
   );
 };

@@ -23,9 +23,14 @@ export const ProductCard = ({ product }: ProductCardProps) => {
             className="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
           <div className="absolute top-3 right-3">
-            <Badge variant="secondary" className="text-xs font-medium">
-              {product.category}
-            </Badge>
+              <Badge variant="secondary" className="text-xs font-medium">
+                {product.category}
+              </Badge>
+              {product.complete && (
+                <Badge variant="default" className="text-xs font-medium ml-2">
+                  Já Presenteado!
+                </Badge>
+              )}
           </div>
         </div>
         
@@ -35,13 +40,14 @@ export const ProductCard = ({ product }: ProductCardProps) => {
           </h3>
           
           <Button
-            onClick={handlePurchaseClick}
-            className="w-full bg-primary hover:bg-primary-hover text-primary-foreground transition-all duration-300 group-hover:shadow-lg"
-            size="default"
-          >
-            <ExternalLink className="mr-2 h-4 w-4" />
-            Ver Detalhes
-          </Button>
+              onClick={handlePurchaseClick}
+              className="w-full bg-primary hover:bg-primary-hover text-primary-foreground transition-all duration-300 group-hover:shadow-lg"
+              size="default"
+              disabled={product.complete}
+            >
+              <ExternalLink className="mr-2 h-4 w-4" />
+              Ver Detalhes
+            </Button>
         </div>
       </CardContent>
     </Card>

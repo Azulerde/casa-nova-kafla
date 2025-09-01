@@ -8,22 +8,23 @@ export const Hero = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
             <Home className="h-8 w-8 text-primary" />
           </div>
-          
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Nossa Casa Nova
+            KaFla de Casa Nova
           </h1>
-          
+
           <div className="max-w-2xl mx-auto">
+            <div className="flex items-center justify-center gap-2 text-muted-foreground">
+              <Heart className="h-5 w-5 text-primary animate-pulse" />
+              Olá, queridos!
+              <Heart className="h-5 w-5 text-primary animate-pulse" />
+            </div>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
-              Olá! Estamos montando nosso novo lar e criamos esta lista para ajudar 
-              nossos amigos a encontrar os itens que ainda precisamos.
+              Estamos montando nosso novo lar e queremos muito que nossos amigos e familiares façam parte dessa história conosco. Por isso, criamos uma lista com alguns itens que ainda precisamos.
             </p>
             
             <div className="flex items-center justify-center gap-2 text-muted-foreground">
-              <Heart className="h-5 w-5 text-primary" />
               <p className="text-base">
-                Fiquem à vontade para escolher algo, se desejarem nos ajudar a deixar 
-                nosso lar completo!
+                Se quiserem nos ajudar a deixar a casa completa e cheia de boas memórias, fiquem à vontade para escolher um presente. O mais importante é ter vocês nessa fase tão especial da nossa vida!
               </p>
             </div>
           </div>

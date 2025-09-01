@@ -8,6 +8,14 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    --primary-color:#2bb3a8;
+    /* --primary-color:#1c3112; */
+    --secondary-color:#0C4B41;
+    --tertiary-color:#3CB371;
+    --quaternary-color:#CBD5A9;
+    --quinary-color:#29374D;
+    --background-color: white;
+    --text-color: black;
     /* Elegant neutral palette with soft teal accents */
     --background: 0 0% 99%;
     --foreground: 220 15% 20%;
@@ -106,12 +114,96 @@ All colors MUST be HSL.
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
+.unbuttonize {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  font: inherit;
+  border-radius: 0;
+  appearance: none;
+  cursor: pointer;
+}
 
-  body {
-    @apply bg-background text-foreground;
-  }
+li {
+  line-height: 1.7;
+}
+
+li::marker {
+  color: var(--secondary);
+}
+
+a.header-link {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: 0.4s;
+}
+/* mouse over link */
+a.email {
+  margin-left: 4px;
+}
+a.email:hover {
+  background-color: hsla(160, 100%, 37%, 0.2);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary-hover);
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: var(--quaternary-color);
+}
+
+img.socialIcon {
+  height: 24px;
+  width: 24px;
+}
+
+img.copyIcon {
+  padding: 3px 5px;
+  height: 25px;
+  width: 25px;
+}
+
+.iconOpenNewTab {
+  height: 16px;
+  width: 16px;
+}
+
+img.copyIcon:hover {
+  border-radius: 50%;
+  background-color: 	hsla(170, 72%, 17%, 0.5);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.copyTooltip {
+  visibility: hidden;
+  width: 100px;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .copyTooltip {
+  visibility: visible;
 }
