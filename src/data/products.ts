@@ -51,18 +51,18 @@ export const products: Product[] = [
     complete: true
   },
   {
-    id: "4",
-    name: "Copos",
-    image: coposImage1,
-    purchaseLink: "https://a.co/d/amfSWtB",
-    category: "Cozinha",
-    complete: false
-  },
-  {
     id: "16",
     name: "Copos",
     image: coposImage2,
     purchaseLink: "https://a.co/d/7AVCqwa",
+    category: "Cozinha",
+    complete: true
+  },
+  {
+    id: "4",
+    name: "Copos",
+    image: coposImage1,
+    purchaseLink: "https://a.co/d/amfSWtB",
     category: "Cozinha",
     complete: false
   },
