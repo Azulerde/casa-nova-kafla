@@ -22,6 +22,7 @@ import mixerImage from "@/assets/mixer.png";
 import potesImage from "@/assets/potes.png";
 import canecaImage from "@/assets/caneca.png";
 import cambucaImage from "@/assets/cumbuca.png";
+import tabuaImage from "@/assets/tabua.jpg";
 
 export interface Product {
   id: string;
@@ -70,6 +71,14 @@ export const products: Product[] = [
     name: "Escorredor de Prato",
     image: escorredorImage,
     purchaseLink: "https://a.co/d/0Kwbros",
+    category: "Cozinha",
+    complete: true
+  },
+  {
+    id: "24",
+    name: "Conjunto cambuca",
+    image: cambucaImage,
+    purchaseLink: "https://www.camicado.com.br/p/conjunto-de-cumbucas-04-pecas-organico-latte-porto-brasil/-/A-7010704225242-br.lc?sku=7510708794986",
     category: "Cozinha",
     complete: true
   },
@@ -218,10 +227,10 @@ export const products: Product[] = [
     complete: false
   },
   {
-    id: "24",
-    name: "Conjunto cambuca",
-    image: cambucaImage,
-    purchaseLink: "https://www.camicado.com.br/p/conjunto-de-cumbucas-04-pecas-organico-latte-porto-brasil/-/A-7010704225242-br.lc?sku=7510708794986",
+    id: "25",
+    name: "Tábua de Carne",
+    image: tabuaImage,
+    purchaseLink: "https://a.co/d/4LPODHX",
     category: "Cozinha",
     complete: false
   },
