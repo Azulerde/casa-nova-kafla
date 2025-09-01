@@ -43,6 +43,14 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "11",
+    name: "Liquidificador",
+    image: liquidificadorImage,
+    purchaseLink: "https://a.co/d/a9KHstG",
+    category: "Eletrodomésticos",
+    complete: true
+  },
+  {
     id: "4",
     name: "Copos",
     image: coposImage1,
@@ -143,14 +151,6 @@ export const products: Product[] = [
     name: "Chaleira Elétrica",
     image: chaleiraImage,
     purchaseLink: "https://a.co/d/7v1zKuz",
-    category: "Eletrodomésticos",
-    complete: false
-  },
-  {
-    id: "11",
-    name: "Liquidificador",
-    image: liquidificadorImage,
-    purchaseLink: "https://a.co/d/a9KHstG",
     category: "Eletrodomésticos",
     complete: false
   },
