@@ -15,6 +15,13 @@ import tacasImage from "@/assets/tacas.jpg";
 import airFryerImage from "@/assets/airfryer.jpg";
 import chaleiraImage from "@/assets/chaleira.jpg";
 import potesMantimentosImage from "@/assets/pote-mantimentos.jpg";
+import jarraImage from "@/assets/jarra-agua.png";
+import jogoFacasImage from "@/assets/facas.png";
+import garrafaImage from "@/assets/garrafa.png";
+import mixerImage from "@/assets/mixer.png";
+import potesImage from "@/assets/potes.png";
+import canecaImage from "@/assets/caneca.png";
+import cambucaImage from "@/assets/cumbuca.png";
 
 export interface Product {
   id: string;
@@ -55,6 +62,14 @@ export const products: Product[] = [
     name: "Copos",
     image: coposImage2,
     purchaseLink: "https://a.co/d/7AVCqwa",
+    category: "Cozinha",
+    complete: true
+  },
+  {
+    id: "8",
+    name: "Escorredor de Prato",
+    image: escorredorImage,
+    purchaseLink: "https://a.co/d/0Kwbros",
     category: "Cozinha",
     complete: true
   },
@@ -115,14 +130,6 @@ export const products: Product[] = [
     complete: false
   },
   {
-    id: "8",
-    name: "Escorredor de Prato",
-    image: escorredorImage,
-    purchaseLink: "https://a.co/d/0Kwbros",
-    category: "Cozinha",
-    complete: false
-  },
-  {
     id: "10",
     name: "Xícaras",
     image: xicarasImage,
@@ -161,5 +168,61 @@ export const products: Product[] = [
     purchaseLink: "https://a.co/d/arAsC9I",
     category: "Cozinha",
     complete: false
-  }
+  },
+  {
+    id: "18",
+    name: "Jarra",
+    image: jarraImage,
+    purchaseLink: "https://a.co/d/b3ONJtq",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "19",
+    name: "Mixer",
+    image: mixerImage,
+    purchaseLink: "https://a.co/d/cCRcr5v",
+    category: "Eletrodomésticos",
+    complete: false
+  },
+  {
+    id: "20",
+    name: "Garrafa",
+    image: garrafaImage,
+    purchaseLink: "https://www.camicado.com.br/p/garrafa-home-style-orla/-/A-101306236-br.lc?sku=101306244",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "21",
+    name: "Potes Livres de BPA",
+    image: potesImage,
+    purchaseLink: "https://a.co/d/5pIPk4B",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "22",
+    name: "Jogo de Facas",
+    image: jogoFacasImage,
+    purchaseLink: "https://a.co/d/6cJ6xoF",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "23",
+    name: "2 Canecas flocos - Brancas",
+    image: canecaImage,
+    purchaseLink: "https://www.oliveceramica.com.br/produtos/caneca-ceramica",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "24",
+    name: "Conjunto cambuca",
+    image: cambucaImage,
+    purchaseLink: "https://www.camicado.com.br/p/conjunto-de-cumbucas-04-pecas-organico-latte-porto-brasil/-/A-7010704225242-br.lc?sku=7510708794986",
+    category: "Cozinha",
+    complete: false
+  },
 ];
