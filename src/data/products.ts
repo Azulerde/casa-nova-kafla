@@ -83,6 +83,14 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "15",
+    name: "Potes de Mantimentos",
+    image: potesMantimentosImage,
+    purchaseLink: "https://a.co/d/2G8KBOh",
+    category: "Cozinha",
+    complete: true
+  },
+  {
     id: "4",
     name: "Copos",
     image: coposImage1,
@@ -128,14 +136,6 @@ export const products: Product[] = [
     image: colchaImage,
     purchaseLink: "https://www.camicado.com.br/p/cobre-leito-colcha-sereno-queen-em-malha-marinho-100-algodao/-/A-7010705443709-br.lc?sku=7510711581478",
     category: "Quarto",
-    complete: false
-  },
-  {
-    id: "15",
-    name: "Potes de Mantimentos",
-    image: potesMantimentosImage,
-    purchaseLink: "https://a.co/d/2G8KBOh",
-    category: "Cozinha",
     complete: false
   },
   {
