@@ -96,7 +96,7 @@ export const products: Product[] = [
     image: coposImage1,
     purchaseLink: "https://a.co/d/amfSWtB",
     category: "Cozinha",
-    complete: false
+    complete: true
   },
   {
     id: "3",
