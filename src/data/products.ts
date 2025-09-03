@@ -99,14 +99,6 @@ export const products: Product[] = [
     complete: true
   },
   {
-    id: "3",
-    name: "Panela de Pressão",
-    image: panelaImage,
-    purchaseLink: "https://a.co/d/3hoQY1L",
-    category: "Cozinha",
-    complete: false
-  },
-  {
     id: "5",
     name: "Conjunto de Panelas",
     image: conjuntoPanelasImage,
@@ -115,10 +107,74 @@ export const products: Product[] = [
     complete: false
   },
   {
+    id: "3",
+    name: "Panela de Pressão",
+    image: panelaImage,
+    purchaseLink: "https://a.co/d/3hoQY1L",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "20",
+    name: "Garrafa",
+    image: garrafaImage,
+    purchaseLink: "https://www.camicado.com.br/p/garrafa-home-style-orla/-/A-101306236-br.lc?sku=101306244",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "13",
+    name: "Air Fryer",
+    image: airFryerImage,
+    purchaseLink: "https://a.co/d/6BEV2tf",
+    category: "Eletrodomésticos",
+    complete: false
+  },
+  {
+    id: "18",
+    name: "Jarra",
+    image: jarraImage,
+    purchaseLink: "https://a.co/d/b3ONJtq",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "19",
+    name: "Mixer",
+    image: mixerImage,
+    purchaseLink: "https://a.co/d/cCRcr5v",
+    category: "Eletrodomésticos",
+    complete: false
+  },
+  {
     id: "6",
     name: "Faqueiro Completo",
     image: faqueiroImage,
     purchaseLink: "https://a.co/d/bvrFeIu",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "23",
+    name: "2 Canecas flocos - Brancas",
+    image: canecaImage,
+    purchaseLink: "https://www.oliveceramica.com.br/produtos/caneca-ceramica",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "14",
+    name: "Chaleira Elétrica",
+    image: chaleiraImage,
+    purchaseLink: "https://a.co/d/7v1zKuz",
+    category: "Eletrodomésticos",
+    complete: false
+  },
+  {
+    id: "12",
+    name: "Taças",
+    image: tacasImage,
+    purchaseLink: "https://a.co/d/arAsC9I",
     category: "Cozinha",
     complete: false
   },
@@ -139,6 +195,22 @@ export const products: Product[] = [
     complete: false
   },
   {
+    id: "21",
+    name: "Potes Livres de BPA",
+    image: potesImage,
+    purchaseLink: "https://a.co/d/5pIPk4B",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "25",
+    name: "Tábua de Carne",
+    image: tabuaImage,
+    purchaseLink: "https://a.co/d/4LPODHX",
+    category: "Cozinha",
+    complete: false
+  },
+  {
     id: "10",
     name: "Xícaras",
     image: xicarasImage,
@@ -155,82 +227,10 @@ export const products: Product[] = [
     complete: false
   },
   {
-    id: "13",
-    name: "Air Fryer",
-    image: airFryerImage,
-    purchaseLink: "https://a.co/d/6BEV2tf",
-    category: "Eletrodomésticos",
-    complete: false
-  },
-  {
-    id: "14",
-    name: "Chaleira Elétrica",
-    image: chaleiraImage,
-    purchaseLink: "https://a.co/d/7v1zKuz",
-    category: "Eletrodomésticos",
-    complete: false
-  },
-  {
-    id: "12",
-    name: "Taças",
-    image: tacasImage,
-    purchaseLink: "https://a.co/d/arAsC9I",
-    category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "18",
-    name: "Jarra",
-    image: jarraImage,
-    purchaseLink: "https://a.co/d/b3ONJtq",
-    category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "19",
-    name: "Mixer",
-    image: mixerImage,
-    purchaseLink: "https://a.co/d/cCRcr5v",
-    category: "Eletrodomésticos",
-    complete: false
-  },
-  {
-    id: "20",
-    name: "Garrafa",
-    image: garrafaImage,
-    purchaseLink: "https://www.camicado.com.br/p/garrafa-home-style-orla/-/A-101306236-br.lc?sku=101306244",
-    category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "21",
-    name: "Potes Livres de BPA",
-    image: potesImage,
-    purchaseLink: "https://a.co/d/5pIPk4B",
-    category: "Cozinha",
-    complete: false
-  },
-  {
     id: "22",
     name: "Jogo de Facas",
     image: jogoFacasImage,
     purchaseLink: "https://a.co/d/6cJ6xoF",
-    category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "23",
-    name: "2 Canecas flocos - Brancas",
-    image: canecaImage,
-    purchaseLink: "https://www.oliveceramica.com.br/produtos/caneca-ceramica",
-    category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "25",
-    name: "Tábua de Carne",
-    image: tabuaImage,
-    purchaseLink: "https://a.co/d/4LPODHX",
     category: "Cozinha",
     complete: false
   },
