@@ -99,12 +99,20 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "21",
+    name: "Potes Livres de BPA",
+    image: potesImage,
+    purchaseLink: "https://a.co/d/5pIPk4B",
+    category: "Cozinha",
+    complete: true
+  },
+  {
     id: "5",
     name: "Conjunto de Panelas",
     image: conjuntoPanelasImage,
     purchaseLink: "https://a.co/d/fuStSnZ",
     category: "Cozinha",
-    complete: false
+    complete: true
   },
   {
     id: "3",
@@ -192,14 +200,6 @@ export const products: Product[] = [
     image: colchaImage,
     purchaseLink: "https://www.camicado.com.br/p/cobre-leito-colcha-sereno-queen-em-malha-marinho-100-algodao/-/A-7010705443709-br.lc?sku=7510711581478",
     category: "Quarto",
-    complete: false
-  },
-  {
-    id: "21",
-    name: "Potes Livres de BPA",
-    image: potesImage,
-    purchaseLink: "https://a.co/d/5pIPk4B",
-    category: "Cozinha",
     complete: false
   },
   {
