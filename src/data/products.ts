@@ -140,6 +140,22 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "12",
+    name: "Taças",
+    image: tacasImage,
+    purchaseLink: "https://a.co/d/arAsC9I",
+    category: "Cozinha",
+    complete: true
+  },
+  {
+    id: "10",
+    name: "Xícaras",
+    image: xicarasImage,
+    purchaseLink: "https://www.hzor.com.br/xicara-com-pires-ceramica-pistachhio-215ml-hzor-6-pecas",
+    category: "Cozinha",
+    complete: true
+  },
+  {
     id: "3",
     name: "Panela de Pressão",
     image: panelaImage,
@@ -188,14 +204,6 @@ export const products: Product[] = [
     complete: false
   },
   {
-    id: "12",
-    name: "Taças",
-    image: tacasImage,
-    purchaseLink: "https://a.co/d/arAsC9I",
-    category: "Cozinha",
-    complete: false
-  },
-  {
     id: "9",
     name: "Jogo de Lençol Queen",
     image: camaImage,
@@ -216,14 +224,6 @@ export const products: Product[] = [
     name: "Tábua de Carne",
     image: tabuaImage,
     purchaseLink: "https://a.co/d/4LPODHX",
-    category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "10",
-    name: "Xícaras",
-    image: xicarasImage,
-    purchaseLink: "https://www.hzor.com.br/xicara-com-pires-ceramica-pistachhio-215ml-hzor-6-pecas",
     category: "Cozinha",
     complete: false
   },
