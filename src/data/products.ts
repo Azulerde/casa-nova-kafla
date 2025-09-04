@@ -132,6 +132,14 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "14",
+    name: "Chaleira Elétrica",
+    image: chaleiraImage,
+    purchaseLink: "https://a.co/d/7v1zKuz",
+    category: "Eletrodomésticos",
+    complete: true
+  },
+  {
     id: "3",
     name: "Panela de Pressão",
     image: panelaImage,
@@ -177,14 +185,6 @@ export const products: Product[] = [
     image: canecaImage,
     purchaseLink: "https://www.oliveceramica.com.br/produtos/caneca-ceramica",
     category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "14",
-    name: "Chaleira Elétrica",
-    image: chaleiraImage,
-    purchaseLink: "https://a.co/d/7v1zKuz",
-    category: "Eletrodomésticos",
     complete: false
   },
   {
