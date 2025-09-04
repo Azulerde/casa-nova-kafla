@@ -23,6 +23,7 @@ import potesImage from "@/assets/potes.png";
 import canecaImage from "@/assets/caneca.png";
 import cambucaImage from "@/assets/cumbuca.png";
 import tabuaImage from "@/assets/tabua.jpg";
+import aspiradorImage from "@/assets/aspirador.jpg";
 
 export interface Product {
   id: string;
@@ -115,6 +116,22 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "19",
+    name: "Mixer",
+    image: mixerImage,
+    purchaseLink: "https://a.co/d/cCRcr5v",
+    category: "Eletrodomésticos",
+    complete: true
+  },
+  {
+    id: "26",
+    name: "Aspirador de Pó",
+    image: aspiradorImage,
+    purchaseLink: "https://www.youtube.com",
+    category: "Eletrodomésticos",
+    complete: true
+  },
+  {
     id: "3",
     name: "Panela de Pressão",
     image: panelaImage,
@@ -144,14 +161,6 @@ export const products: Product[] = [
     image: jarraImage,
     purchaseLink: "https://a.co/d/b3ONJtq",
     category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "19",
-    name: "Mixer",
-    image: mixerImage,
-    purchaseLink: "https://a.co/d/cCRcr5v",
-    category: "Eletrodomésticos",
     complete: false
   },
   {
