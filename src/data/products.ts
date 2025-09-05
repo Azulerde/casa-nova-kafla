@@ -156,6 +156,14 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "7",
+    name: "Cafeteira Italiana",
+    image: cafeteiraImage,
+    purchaseLink: "https://a.co/d/atff2Pp",
+    category: "Eletrodomésticos",
+    complete: true
+  },
+  {
     id: "3",
     name: "Panela de Pressão",
     image: panelaImage,
@@ -225,14 +233,6 @@ export const products: Product[] = [
     image: tabuaImage,
     purchaseLink: "https://a.co/d/4LPODHX",
     category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "7",
-    name: "Cafeteira Italiana",
-    image: cafeteiraImage,
-    purchaseLink: "https://a.co/d/atff2Pp",
-    category: "Eletrodomésticos",
     complete: false
   },
   {
