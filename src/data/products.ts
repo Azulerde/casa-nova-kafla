@@ -24,13 +24,25 @@ import canecaImage from "@/assets/caneca.png";
 import cambucaImage from "@/assets/cumbuca.png";
 import tabuaImage from "@/assets/tabua.jpg";
 import aspiradorImage from "@/assets/aspirador.jpg";
+import portachave from "@/assets/portachave.png";
+import abridorImage from "@/assets/abridorvinho.png";
+import cuscuzImage from "@/assets/cuscuz.png";
+import conjuntoBowlImage from "@/assets/conjbowl.png";
+import luminariaImage from "@/assets/luminaria.png";
+import boleiraImage from "@/assets/boleira.png";
+import oganizadorGeladeiraImage from "@/assets/organigeli.png";
+import moedorImage from "@/assets/moedor.png";
+import siliconesImage from "@/assets/silicones.png";
+import sobremesaImage from "@/assets/sobremesa.png";
+
+
 
 export interface Product {
   id: string;
   name: string;
   image: string;
   purchaseLink: string;
-  category: "Eletrodomésticos" | "Cozinha" | "Quarto";
+  category: "Eletrodomésticos" | "Cozinha" | "Quarto" | "Sala";
   complete?: boolean;
 }
 
@@ -240,6 +252,78 @@ export const products: Product[] = [
     name: "Jogo de Facas",
     image: jogoFacasImage,
     purchaseLink: "https://a.co/d/6cJ6xoF",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "27",
+    name: "Porta Chaveiro",
+    image: portachave,
+    purchaseLink: "https://a.co/d/csiKl0n",
+    category: "Sala",
+    complete: false
+  },
+  {
+    id: "28",
+    name: "Conjunto Bowls",
+    image: conjuntoBowlImage,
+    purchaseLink: "https://a.co/d/8Dbgvhr",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "28",
+    name: "Luminária",
+    image: luminariaImage,
+    purchaseLink: "https://a.co/d/aTi0xdt",
+    category: "Sala",
+    complete: false
+  },
+  {
+    id: "29",
+    name: "Cuscuzeira",
+    image: cuscuzImage,
+    purchaseLink: "https://a.co/d/cktsKJi",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "30",
+    name: "Abridor de Vinho",
+    image: abridorImage,
+    purchaseLink: "https://a.co/d/jhDnvtG",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "31",
+    name: "Moedor de Pimenta e Sal",
+    image: moedorImage,
+    purchaseLink: "https://a.co/d/8hxAJk6",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "32",
+    name: "Organizador de Geladeira",
+    image: oganizadorGeladeiraImage,
+    purchaseLink: "https://a.co/d/fwYAJ7x",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "33",
+    name: "Boleira",
+    image: boleiraImage,
+    purchaseLink: "https://a.co/d/2HMaFmi",
+    category: "Cozinha",
+    complete: false
+  },
+  {
+    id: "34",
+    name: "Utensílios de Silicone",
+    image: siliconesImage,
+    purchaseLink: "https://a.co/d/jflRupj",
     category: "Cozinha",
     complete: false
   },
