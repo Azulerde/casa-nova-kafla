@@ -327,4 +327,12 @@ export const products: Product[] = [
     category: "Cozinha",
     complete: false
   },
+  {
+    id: "35",
+    name: "Taças de Sobremesa",
+    image: sobremesaImage,
+    purchaseLink: "https://www.mercadolivre.com.br/jogo-6-tacas-sobremesa-cameratta-lhermitage-verde-em-vidro/p/MLB35946657",
+    category: "Cozinha",
+    complete: false
+  },
 ];
