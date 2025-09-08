@@ -181,15 +181,7 @@ export const products: Product[] = [
     image: panelaImage,
     purchaseLink: "https://a.co/d/3hoQY1L",
     category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "20",
-    name: "Garrafa",
-    image: garrafaImage,
-    purchaseLink: "https://www.camicado.com.br/p/garrafa-home-style-orla/-/A-101306236-br.lc?sku=101306244",
-    category: "Cozinha",
-    complete: false
+    complete: true
   },
   {
     id: "13",
@@ -197,6 +189,14 @@ export const products: Product[] = [
     image: airFryerImage,
     purchaseLink: "https://a.co/d/6BEV2tf",
     category: "Eletrodomésticos",
+    complete: true
+  },
+  {
+    id: "20",
+    name: "Garrafa",
+    image: garrafaImage,
+    purchaseLink: "https://www.camicado.com.br/p/garrafa-home-style-orla/-/A-101306236-br.lc?sku=101306244",
+    category: "Cozinha",
     complete: false
   },
   {
