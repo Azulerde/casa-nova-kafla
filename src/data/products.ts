@@ -192,6 +192,22 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "6",
+    name: "Faqueiro Completo",
+    image: faqueiroImage,
+    purchaseLink: "https://a.co/d/bvrFeIu",
+    category: "Cozinha",
+    complete: true
+  },
+  {
+    id: "35",
+    name: "Taças de Sobremesa",
+    image: sobremesaImage,
+    purchaseLink: "https://www.mercadolivre.com.br/jogo-6-tacas-sobremesa-cameratta-lhermitage-verde-em-vidro/p/MLB35946657",
+    category: "Cozinha",
+    complete: true
+  },
+  {
     id: "20",
     name: "Garrafa",
     image: garrafaImage,
@@ -204,14 +220,6 @@ export const products: Product[] = [
     name: "Jarra",
     image: jarraImage,
     purchaseLink: "https://a.co/d/b3ONJtq",
-    category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "6",
-    name: "Faqueiro Completo",
-    image: faqueiroImage,
-    purchaseLink: "https://a.co/d/bvrFeIu",
     category: "Cozinha",
     complete: false
   },
@@ -324,14 +332,6 @@ export const products: Product[] = [
     name: "Utensílios de Silicone",
     image: siliconesImage,
     purchaseLink: "https://a.co/d/jflRupj",
-    category: "Cozinha",
-    complete: false
-  },
-  {
-    id: "35",
-    name: "Taças de Sobremesa",
-    image: sobremesaImage,
-    purchaseLink: "https://www.mercadolivre.com.br/jogo-6-tacas-sobremesa-cameratta-lhermitage-verde-em-vidro/p/MLB35946657",
     category: "Cozinha",
     complete: false
   },
