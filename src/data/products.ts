@@ -208,6 +208,14 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "29",
+    name: "Cuscuzeira",
+    image: cuscuzImage,
+    purchaseLink: "https://a.co/d/cktsKJi",
+    category: "Cozinha",
+    complete: true
+  },
+  {
     id: "20",
     name: "Garrafa",
     image: garrafaImage,
@@ -215,14 +223,14 @@ export const products: Product[] = [
     category: "Cozinha",
     complete: false
   },
-  {
-    id: "18",
-    name: "Jarra",
-    image: jarraImage,
-    purchaseLink: "https://a.co/d/b3ONJtq",
-    category: "Cozinha",
-    complete: false
-  },
+  // {
+    //   id: "18",
+  //   name: "Jarra",
+  //   image: jarraImage,
+  //   purchaseLink: "https://a.co/d/b3ONJtq",
+  //   category: "Cozinha",
+  //   complete: false
+  // },
   {
     id: "23",
     name: "2 Canecas flocos - Brancas",
@@ -285,14 +293,6 @@ export const products: Product[] = [
     image: luminariaImage,
     purchaseLink: "https://a.co/d/aTi0xdt",
     category: "Sala",
-    complete: false
-  },
-  {
-    id: "29",
-    name: "Cuscuzeira",
-    image: cuscuzImage,
-    purchaseLink: "https://a.co/d/cktsKJi",
-    category: "Cozinha",
     complete: false
   },
   {
