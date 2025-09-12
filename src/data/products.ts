@@ -216,6 +216,14 @@ export const products: Product[] = [
     complete: true
   },
   {
+    id: "23",
+    name: "2 Canecas flocos - Brancas",
+    image: canecaImage,
+    purchaseLink: "https://www.oliveceramica.com.br/produtos/caneca-ceramica",
+    category: "Cozinha",
+    complete: true
+  },
+  {
     id: "20",
     name: "Garrafa",
     image: garrafaImage,
@@ -223,19 +231,11 @@ export const products: Product[] = [
     category: "Cozinha",
     complete: false
   },
-  // {
-    //   id: "18",
-  //   name: "Jarra",
-  //   image: jarraImage,
-  //   purchaseLink: "https://a.co/d/b3ONJtq",
-  //   category: "Cozinha",
-  //   complete: false
-  // },
   {
-    id: "23",
-    name: "2 Canecas flocos - Brancas",
-    image: canecaImage,
-    purchaseLink: "https://www.oliveceramica.com.br/produtos/caneca-ceramica",
+      id: "18",
+    name: "Jarra",
+    image: jarraImage,
+    purchaseLink: "https://www.camicado.com.br/p/jarra-home-style-boro-van/-/A-100922045-br.lc?sku=100922053",
     category: "Cozinha",
     complete: false
   },
