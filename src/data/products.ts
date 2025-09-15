@@ -229,7 +229,7 @@ export const products: Product[] = [
     image: garrafaImage,
     purchaseLink: "https://www.camicado.com.br/p/garrafa-home-style-orla/-/A-101306236-br.lc?sku=101306244",
     category: "Cozinha",
-    complete: false
+    complete: true
   },
   {
       id: "18",
@@ -269,7 +269,7 @@ export const products: Product[] = [
     image: jogoFacasImage,
     purchaseLink: "https://a.co/d/6cJ6xoF",
     category: "Cozinha",
-    complete: false
+    complete: true
   },
   {
     id: "27",
@@ -283,7 +283,7 @@ export const products: Product[] = [
     id: "28",
     name: "Conjunto Bowls",
     image: conjuntoBowlImage,
-    purchaseLink: "https://a.co/d/8Dbgvhr",
+    purchaseLink: "https://a.co/d/6XerWIL",
     category: "Cozinha",
     complete: false
   },
@@ -333,6 +333,6 @@ export const products: Product[] = [
     image: siliconesImage,
     purchaseLink: "https://a.co/d/jflRupj",
     category: "Cozinha",
-    complete: false
+    complete: true
   },
 ];
